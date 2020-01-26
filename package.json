@@ -1,0 +1,15 @@
+{
+  "name": "napi-cmake",
+  "version": "1.0.0",
+  "main": "src/js/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "cmake-js compile",
+    "start": "node ."
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "cmake-js": "^5.3.1",
+    "node-addon-api": "^1.7.1"
+  }
+}
